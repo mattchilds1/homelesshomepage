@@ -1,6 +1,5 @@
-# Her-art #
+# Homeless Homepage #
 
-A static website created for Samantha Huang
 
 Author: Matt Childs
 
