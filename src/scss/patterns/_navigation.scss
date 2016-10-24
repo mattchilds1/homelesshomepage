@@ -1,0 +1,22 @@
+nav {
+    display:none;
+    a:link, a:visited, a:hover, a:active { color:$red; }
+    border-bottom: 2px black solid;
+    ul {
+        list-style-type: none;
+        font-weight:bold;
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-bottom: 2em;
+        li {
+
+        }
+
+    }
+
+    #close-menu {
+            position: absolute;
+            right: 2em;
+            top: 1em;
+    }
+}

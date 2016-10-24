@@ -1,0 +1,33 @@
+.container {
+  @include outer-container;
+  max-width: none;
+}
+
+#site-contents {
+		@include span-columns(12,block-collapse);
+	  	@include media ($medium-screen) {
+      		@include span-columns(5,block-collapse);
+  		}
+}
+
+#artwork {
+	display:none;
+	  @include media ($medium-screen) {
+	  	display:block;
+      @include span-columns(7);
+  }
+}
+
+header {
+  @include media ($medium-screen) {@include span-columns(5 of 5);}
+  @include span-columns(12 of 12);
+}
+
+main {
+  @include media ($medium-screen) {@include span-columns(5 of 5);}
+  @include span-columns(12 of 12);
+}
+footer {
+  @include media ($medium-screen) {@include span-columns(5 of 5);}
+  @include span-columns(12 of 12);
+}

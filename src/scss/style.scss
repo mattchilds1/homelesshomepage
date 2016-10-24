@@ -1,0 +1,53 @@
+// Bourbon mixin library: http://bourbon.io
+@import "vendor/bourbon/bourbon";
+
+// Base styles (read: normalise and sensible defaults): http://bitters.bourbon.io
+@import "base/base";
+
+// Grid system: http://neat.bourbon.io
+@import "vendor/neat/neat";
+
+// Import custom styles that aren't convered in "base"
+
+
+//
+// SCSS Files with custom secgate patterns
+// Variables first
+@import "patterns/variables";
+@import "patterns/layout";
+@import "patterns/home";
+//@import "patterns/navigation";
+//@import "patterns/search-bar";
+//@import "patterns/search-results";
+//@import "patterns/faceted-nav";
+//@import "patterns/standard-page";
+@import "patterns/footer";
+@import "patterns/header";
+@import "patterns/navigation";
+
+//@import "patterns/socialicons";
+//@import "patterns/grid";
+//@import "patterns/product";
+//@import "patterns/accordian";
+
+$gutter: 0 !default;
+
+html {}
+body {
+
+	margin: 0;
+	padding: 0;
+	font-family: $body-font, sans-serif;
+	color: $black;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $header-button-font;
+}
+
+.container { }
+
+main {
+	background-color: $white;
+	color: $black;
+}
